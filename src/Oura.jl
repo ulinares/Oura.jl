@@ -7,7 +7,7 @@ using JSON3
 export OuraClient
 export get_personal_info, get_oura_data
 export sleep_report, readiness_report, activity_report
-export get_scores
+export get_date_metrics
 
 mutable struct OuraClient
     personal_token::String
